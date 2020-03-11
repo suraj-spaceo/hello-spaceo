@@ -1,0 +1,19 @@
+{
+    "name": "spaceo/hello-spaceo",
+    "description": "A simple hello spaceo composer package",
+    "type": "library",
+    "require": {},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suraj patel",
+            "email": "suraj.spaceo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "spaceo\\HelloSpaceo\\": "src/"
+        }
+    }
+}
